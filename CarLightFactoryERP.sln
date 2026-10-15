@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.37111.16
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarLightFactoryERP", "CarLightFactoryERP.csproj", "{4D4D40C1-0900-4E73-9B74-A338983AB1DD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "方案項目", "方案項目", "{8DDC4786-5FC8-F15C-1CA5-9F41FD4BEB75}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs", "docs", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+	ProjectSection(SolutionItems) = preProject
+		docs\CarLightFactoryERP_ERD.png = docs\CarLightFactoryERP_ERD.png
+		docs\InventoryForm.png = docs\InventoryForm.png
+		docs\MainForm.png = docs\MainForm.png
+		docs\MaterialForm.png = docs\MaterialForm.png
+		docs\PurchaseForm.png = docs\PurchaseForm.png
+		docs\ReceivingForm.png = docs\ReceivingForm.png
+		docs\SupplierForm.png = docs\SupplierForm.png
+		docs\vw_.png = docs\vw_.png
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "sql", "sql", "{F393DBC4-42A9-4E2C-BE99-9390A749623C}"
+	ProjectSection(SolutionItems) = preProject
+		sql\usp_採購入庫.sql = sql\usp_採購入庫.sql
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4D4D40C1-0900-4E73-9B74-A338983AB1DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D4D40C1-0900-4E73-9B74-A338983AB1DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D4D40C1-0900-4E73-9B74-A338983AB1DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D4D40C1-0900-4E73-9B74-A338983AB1DD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{02EA681E-C7D8-13C7-8484-4AC65E1B71E8} = {8DDC4786-5FC8-F15C-1CA5-9F41FD4BEB75}
+		{F393DBC4-42A9-4E2C-BE99-9390A749623C} = {8DDC4786-5FC8-F15C-1CA5-9F41FD4BEB75}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E6C18E77-430F-48B4-82FD-13CD1839E6BA}
+	EndGlobalSection
+EndGlobal
